@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+header{
+    background: #303030;
+    color: white;
+    padding: 130px 20px 150px 60px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: rgb(250, 244, 244);
+
+}
+
+main{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+#texto-principal{
+   padding-top: 210px;
+}
+
+footer{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding: 60px;
+   
+}
+
+#texto-rodape{
+   margin-bottom: 20px;
+}
+
+input{
+    width: 353px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px ;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #c09b6e;
+    transition-duration: 0.5s;
+}
+
+
